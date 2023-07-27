@@ -67,7 +67,7 @@
                                             "element" : "a",
                                             "props" : {
                                                 "textContent" : "Ejemplo de anidamiento de divs",
-                                                "href" : "http://127.0.0.1:5500/?page=anidacion",
+                                                "href" : "https://rodrigocamposbna.github.io/CreadorFormularios/?page=anidacion",
                                                 "target" : "_blank"
                                             }
                                         }
@@ -97,7 +97,7 @@
                                             "element" : "a",
                                             "props" : {
                                                 "textContent" : "Formulario básico",
-                                                "href" : "http://127.0.0.1:5500/?page=form",
+                                                "href" : "https://rodrigocamposbna.github.io/CreadorFormularios/?page=form",
                                                 "target" : "_blank"
                                             }
                                         }
@@ -127,7 +127,7 @@
                                             "element" : "a",
                                             "props" : {
                                                 "textContent" : "Formulario con JS personalizado",
-                                                "href" : "http://127.0.0.1:5500/?page=expo",
+                                                "href" : "https://rodrigocamposbna.github.io/CreadorFormularios/?page=expo",
                                                 "target" : "_blank"
                                             }
                                         }
