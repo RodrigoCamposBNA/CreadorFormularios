@@ -1,6 +1,8 @@
 # Creador de Formularios 2da version
 	
 - Se piensa la solución como un conversor de JSON a HTML. Esto quiere decir que cualquier tag o propiedad que exista en la sintaxis HTML, podra ser definido en el archivo JSON
+
+[Link a la Demo](https://rodrigocamposbna.github.io/CreadorFormularios/)
 	
 ## Estructura Básica del archivo json
 
@@ -12,7 +14,7 @@ El archivo contendra 2 secciones principales:
 
 En el ejemplo adjunto, se define un elemento **h3** con el texto "Hello World" seteandole algunos estilos y clases. Por otro lado, se llama al archivo js  "js/helloWorld.js" que muestra un mensaje por consola
 
-[Link al Ejemplo](https://rodrigocamposbna.github.io/CreadorFormularios/?page=helloWorld).
+[Link al Ejemplo](https://rodrigocamposbna.github.io/CreadorFormularios/?page=helloWorld)
 
 ```
 {
@@ -44,7 +46,7 @@ La estructura para definir un elemento es siempre la misma :
 - **props** : Se definen las propiedades HTML asociadas al elemento. Cualquier propiedad que exista en la sintaxis HTML, podra ser definido aqui.
 - **childrens** : Se definen los nodos hijos en caso de existir. La lectura es recursiva, por lo que se podran crean tantos niveles como se deseen.
 
-[Link al Ejemplo](https://rodrigocamposbna.github.io/CreadorFormularios/?page=basico).
+[Link al Ejemplo](https://rodrigocamposbna.github.io/CreadorFormularios/?page=basico)
 
 
 ```
