@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.nav-bna{
+    background-color: #007894;
+}
+
+.btn-bna{
+    border-radius: 1px;
+    border: 0;
+    background-image: none;
+    background-color: #007894;
+    color: #fff;
+    text-shadow: none;
+}
+
+.btn-bna:hover {
+    border-radius: 1px;
+    border: 0;
+    background-image: none;
+    background-color: #2E2E2E;
+    color: #fff;
+    text-shadow: none;
+}

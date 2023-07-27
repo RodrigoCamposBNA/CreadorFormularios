@@ -1,0 +1,142 @@
+{
+    "html" : [
+        { 
+            "element" : "h3",
+            "props" : {
+                "class" : "title is-3 my-3 has-text-grey",
+                "textContent" : "Ejemplo de anidamiento de divs"
+            }
+        },
+        { 
+            "element" : "#padre.p-2",
+            "props" : {
+                "style" : {
+                    "padding" : "4px", 
+                    "border" : "2px dashed red"
+                }
+            },
+            "childrens" : [
+                { 
+                    "element" : "p#parrafoPadre",
+                    "props" : {
+                        "class" : "has-text-danger has-text-weight-bold is-size-4",
+                        "textContent" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur dolor dolorum doloribus laborum! Dicta aliquid natus explicabo nesciunt quae, accusamus labore consequatur cupiditate, animi dolores quis rerum ex debitis autem nihil eaque sit odit corporis nostrum accusantium officia minima repudiandae facilis! Aperiam et debitis vero culpa dolorem asperiores distinctio odit."
+                    }
+                },
+                { 
+                    "element" : "#hijo",
+                    "props" : {
+                        "style" : {
+                            "padding" : "4px", 
+                            "border" : "2px dashed blue"
+                        }
+                    },
+                    "childrens" : [
+                        {
+                            "element" : "div",
+                            "props" : {
+                                "class" : "columns"
+                            },
+                            "childrens" : [
+                                {
+                                    "element" : "div#hijo1",
+                                    "props" : {
+                                        "class" : "column is-6"
+                                    },
+                                    "childrens" : [
+                                        { 
+                                            "element" : "p",
+                                            "props" : {
+                                                "class" : "has-text-info has-text-weight-bold is-size-5",
+                                                "textContent" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur dolor dolorum doloribus laborum! Dicta aliquid natus explicabo nesciunt quae, accusamus labore consequatur cupiditate, animi dolores quis rerum ex debitis autem nihil eaque sit odit corporis nostrum accusantium officia minima repudiandae facilis! Aperiam et debitis vero culpa dolorem asperiores distinctio odit."
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "element" : "div#hijo2",
+                                    "props" : {
+                                        "class" : "column is-6"
+                                    },
+                                    "childrens" : [
+                                        { 
+                                            "element" : "p",
+                                            "props" : {
+                                                "class" : "has-text-info has-text-weight-bold is-size-5",
+                                                "textContent" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur dolor dolorum doloribus laborum! Dicta aliquid natus explicabo nesciunt quae, accusamus labore consequatur cupiditate, animi dolores quis rerum ex debitis autem nihil eaque sit odit corporis nostrum accusantium officia minima repudiandae facilis! Aperiam et debitis vero culpa dolorem asperiores distinctio odit."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "element" : "#nieto",
+                            "props" : {
+                                "style" : {
+                                    "padding" : "4px", 
+                                    "border" : "2px dashed green"
+                                }
+                            },
+                            "childrens" : [
+                                {
+                                    "element" : "div",
+                                    "props" : {
+                                        "class" : "columns"
+                                    },
+                                    "childrens" : [
+                                        {
+                                            "element" : "div#nieto1",
+                                            "props" : {
+                                                "class" : "column is-4"
+                                            },
+                                            "childrens" : [
+                                                { 
+                                                    "element" : "p",
+                                                    "props" : {
+                                                        "class" : "has-text-success has-text-weight-bold is-size-6",
+                                                        "textContent" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur dolor dolorum doloribus laborum! Dicta aliquid natus explicabo nesciunt quae, accusamus labore consequatur cupiditate, animi dolores quis rerum ex debitis autem nihil eaque sit odit corporis nostrum accusantium officia minima repudiandae facilis! Aperiam et debitis vero culpa dolorem asperiores distinctio odit."
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "element" : "div#nieto2",
+                                            "props" : {
+                                                "class" : "column is-4"
+                                            },
+                                            "childrens" : [
+                                                { 
+                                                    "element" : "p",
+                                                    "props" : {
+                                                        "class" : "has-text-success has-text-weight-bold is-size-6",
+                                                        "textContent" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur dolor dolorum doloribus laborum! Dicta aliquid natus explicabo nesciunt quae, accusamus labore consequatur cupiditate, animi dolores quis rerum ex debitis autem nihil eaque sit odit corporis nostrum accusantium officia minima repudiandae facilis! Aperiam et debitis vero culpa dolorem asperiores distinctio odit."
+                                                    }
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "element" : "div#nieto3",
+                                            "props" : {
+                                                "class" : "column is-4"
+                                            },
+                                            "childrens" : [
+                                                { 
+                                                    "element" : "p",
+                                                    "props" : {
+                                                        "class" : "has-text-success has-text-weight-bold is-size-6",
+                                                        "textContent" : "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur dolor dolorum doloribus laborum! Dicta aliquid natus explicabo nesciunt quae, accusamus labore consequatur cupiditate, animi dolores quis rerum ex debitis autem nihil eaque sit odit corporis nostrum accusantium officia minima repudiandae facilis! Aperiam et debitis vero culpa dolorem asperiores distinctio odit."
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

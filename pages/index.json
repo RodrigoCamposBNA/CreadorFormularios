@@ -1,0 +1,153 @@
+{
+    "html" : [
+        { 
+            "element" : "h3",
+            "props" : {
+                "class" : "subtitle is-3 my-3 has-text-info-dark",
+                "textContent" : "Creador de Paginas mediante JSON"
+            }
+        },
+        { 
+            "element" : "h4",
+            "props" : {
+                "class" : "subtitle is-4 my-3 has-text-grey-dark",
+                "textContent" : "Links de ejemplo"
+            }
+        },
+        { 
+            "element" : "table",
+            "props" : {
+                "class" : "table is-striped is-fullwidth"        
+            },
+            "childrens" : [
+                { 
+                    "element" : "thead",
+                    "childrens" : [
+                        {
+                            "element" : "tr",
+                            "childrens" : [
+                                {
+                                    "element" : "th",
+                                    "props" : {
+                                        "textContent" : "#"
+                                    }
+                                },
+                                {
+                                    "element" : "th",
+                                    "props" : {
+                                        "textContent" : "Url"
+                                    }
+                                },
+                                {
+                                    "element" : "th",
+                                    "props" : {
+                                        "textContent" : "Observaciones"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                { 
+                    "element" : "tbody",
+                    "childrens" : [
+                        {
+                            "element" : "tr",
+                            "childrens" : [
+                                {
+                                    "element" : "th",
+                                    "props" : {
+                                        "textContent" : "1"
+                                    }
+                                },
+                                {
+                                    "element" : "td",
+                                    "childrens" : [
+                                        {
+                                            "element" : "a",
+                                            "props" : {
+                                                "textContent" : "Ejemplo de anidamiento de divs",
+                                                "href" : "http://127.0.0.1:5500/?page=anidacion",
+                                                "target" : "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "element" : "td",
+                                    "props" : {
+                                        "textContent" : "Pagina de ejemplo donde se ve como anidar N divs"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "element" : "tr",
+                            "childrens" : [
+                                {
+                                    "element" : "th",
+                                    "props" : {
+                                        "textContent" : "2"
+                                    }
+                                },
+                                {
+                                    "element" : "td",
+                                    "childrens" : [
+                                        {
+                                            "element" : "a",
+                                            "props" : {
+                                                "textContent" : "Formulario básico",
+                                                "href" : "http://127.0.0.1:5500/?page=form",
+                                                "target" : "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "element" : "td",
+                                    "props" : {
+                                        "textContent" : "Ejemplo de formulario con elemento input personalizado"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "element" : "tr",
+                            "childrens" : [
+                                {
+                                    "element" : "th",
+                                    "props" : {
+                                        "textContent" : "3"
+                                    }
+                                },
+                                {
+                                    "element" : "td",
+                                    "childrens" : [
+                                        {
+                                            "element" : "a",
+                                            "props" : {
+                                                "textContent" : "Formulario con JS personalizado",
+                                                "href" : "http://127.0.0.1:5500/?page=expo",
+                                                "target" : "_blank"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "element" : "td",
+                                    "props" : {
+                                        "textContent" : "Ejemplo de formulario con la tipica validacion de si es persona fisica o juridica"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "js" : [
+        "js/helloWorld.js",
+        "js/helloProgrammer.js"
+    ]
+}

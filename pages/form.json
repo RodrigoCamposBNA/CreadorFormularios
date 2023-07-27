@@ -1,0 +1,81 @@
+{
+    "html" : [
+        {
+            "element" : "header.my-3",
+            "childrens" : [
+                { 
+                    "element" : "h3",
+                    "props" : {
+                        "class" : "subtitle has-text-weight-light has-text-info-dark is-2 mb-1",
+                        "textContent" : "Alta de persona fisica"
+                    }
+                },
+                { 
+                    "element" : "p",
+                    "props" : {
+                        "class" : "has-text-weight-light has-text-grey-dark is-6",
+                        "textContent" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ab repudiandae voluptate ad iusto non soluta natus dolor corporis facilis?"
+                    }
+                }
+            ]
+        },
+        { 
+            "element" : "form",
+            "childrens" : [
+                {
+                    "element" : "h4",
+                    "props" : {
+                        "class" : "subtitle has-text-weight-light is-4 my-3",
+                        "style" : {
+                            "color" : "#007894"
+                        },
+                        "textContent" : "Datos personales"
+                    }
+                },
+                {
+                    "element" : "input",
+                    "props" : {
+                        "name" : "nombre",
+                        "data-type" : "input",
+                        "data-size" : "5"
+                    }
+                },
+                {
+                    "element" : "input",
+                    "props" : {
+                        "name" : "apellido",
+                        "data-type" : "input",
+                        "data-size" : "5"
+                    }
+                },
+                {
+                    "element" : "input",
+                    "props" : {
+                        "name" : "cuil",
+                        "type" : "number",
+                        "data-type" : "input",
+                        "data-size" : "3",
+                        "data-regex" : "(20|23|27|30|33)([0-9]{9}|-[0-9]{8}-[0-9]{1})",
+                        "data-message" :"El cuil ingresado no tiene el formato esperado"
+                    }
+                },
+                {
+                    "element" : "input",
+                    "props" : {
+                        "name" : "correo_electronico",
+                        "type" : "email",
+                        "data-type" : "input"
+                    }
+                },
+                {
+                    "element" : "button.button.btn-bna.my-2",
+                    "props" : {
+                        "type" : "submit",
+                        "textContent" : "Enviar"
+                    }
+                }
+            ]
+        }
+    ]
+}
+
