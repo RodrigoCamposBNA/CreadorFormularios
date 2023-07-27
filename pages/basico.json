@@ -1,0 +1,33 @@
+{
+    "html" : [
+        {
+            "element" : "div",
+            "props" : {
+                "id" : "ejemplo"
+            },
+            "childrens" : [
+                {
+                    "element" : "h3",
+                    "props" : {
+                        "class" : "subtitle is-3 mt-3",
+                        "textContent" : "Saludo 1",
+                        "style" : {
+                            "color" : "red"
+                        }
+                    } 
+                },
+                {
+                    "element" : "h3",
+                    "props" : {
+                        "class" : "subtitle is-3 mt-3",
+                        "textContent" : "Saludo 2",
+                        "style" : {
+                            "color" : "blue"
+                        }
+                    } 
+                }
+            ]
+        }
+    ]
+}
+

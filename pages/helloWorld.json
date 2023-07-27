@@ -1,0 +1,18 @@
+{
+    "html" : [
+        {
+            "element" : "h3",
+            "props" : {
+                "class" : "subtitle is-3 mt-3",
+                "textContent" : "Hello World",
+                "style" : {
+                    "color" : "red"
+                }
+            } 
+        }
+    ],
+    "js" : [
+        "js/helloWorld.js"
+    ]
+}
+
