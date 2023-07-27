@@ -112,15 +112,15 @@ Al agregar la propiedad "data-type" = "input" a un elemento tipo input, agrego a
 ``` 
 {
     "element" : "input",
-        "props" : {
-            "name" : "cuil",
-            "type" : "number",
-            "data-type" : "input",
-            "data-size" : "3",
-            "data-regex" : "(20|23|27|30|33)([0-9]{9}|-[0-9]{8}-[0-9]{1})",
-            "data-message" :"El cuil ingresado no tiene el formato esperado"
-        }
+    "props" : {
+        "name" : "cuil",
+        "type" : "number",
+        "data-type" : "input",
+        "data-size" : "3",
+        "data-regex" : "(20|23|27|30|33)([0-9]{9}|-[0-9]{8}-[0-9]{1})",
+        "data-message" :"El cuil ingresado no tiene el formato esperado"
     }
+}
 ``` 
 
 
